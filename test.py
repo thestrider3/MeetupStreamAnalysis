@@ -35,8 +35,8 @@ while 1:
         entropy_prev=entropy
         if (entropy_diff>0.0001):
             time.sleep(5)
-            auth=tweepy.OAuthHandler('D3tZyQU0mJq4sRKdS1pRPp9ir','270H9ONazxkZf0eLl0aC9AzB4Ln1sQqQ8SAwZQiAhj9bnPLAQD')
-            auth.set_access_token('137228501-p7PCkPaD92n2nn4caokQd9loXz6ZGf2cZtdSpwpn','yro3A945UCSPeK0eUo1Yok9sd1uDH39RH5ghCFAJjgZPK')
+            auth=tweepy.OAuthHandler('Consumer Key','Consumer Sceret Key')
+            auth.set_access_token('Access Key','Access Secret Key')
             api = tweepy.API(auth)
             print api.me().name
             count=count+1
