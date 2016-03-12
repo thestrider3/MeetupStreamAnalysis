@@ -8,7 +8,7 @@ import sys
 def main():
 
         cities =[("New York","NY")]
-        api_key= "3a4384d103343104c264bfd1215e"
+        api_key= "API KEY"
         # Get your key here https://secure.meetup.com/meetup_api/key/
         for (city, state) in cities:
             
