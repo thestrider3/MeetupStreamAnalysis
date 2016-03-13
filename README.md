@@ -22,4 +22,5 @@ In order to run this project
   * Step 3: Write curl -i http://stream.meetup.com/2/open_events | python events_parse.py & python decrementer.py & python city-bot-api.py & python test.py in your terminal
   * Step 4: Go to localhost:5000, this page shows the categories along with their associated probabilities
   * Step 5: Go to localhost:5000/plot.png to view the histogram, localhost:5000/rate to see the average rate and localhost:5000/entropy to see the current entropy of the stream
-  * Step 6: In order to view the probability, go to localhost:5000/probability?city="city_name"&category="category_name" where city_name and category_name are the parameter of GET request.
+  * Step 6: To view different categories present in a city, go to loacalhost:5000/citywithcategory
+  * Step 7: In order to view the probability, go to localhost:5000/probability?city="city_name"&category="category_name" where city_name and category_name are the parameter of GET request.
